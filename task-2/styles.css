@@ -1,0 +1,49 @@
+body {
+  background-color: #bdc3c7;
+}
+h1 {
+  color: #9b59b6;
+}
+
+h2 {
+  color: orange;
+}
+
+ul > li {
+  color: blue;
+}
+p {
+  background-color: yellow;
+}
+
+label > input {
+  border: 3px solid red;
+}
+
+.hello {
+  background-color: white;
+}
+
+#special {
+  border: 2px solid blue;
+}
+
+div > p {
+  font-size: 25px;
+}
+
+[type='text'] {
+  background-color: grey;
+}
+
+h2 + p {
+  background-color: yellow;
+}
+
+div p:last-of-type {
+  border: 20px solid white;
+}
+p > em {
+  color: white;
+  font-size: 20px;
+}
