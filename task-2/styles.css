@@ -36,14 +36,10 @@ div > p {
   background-color: grey;
 }
 
-h2 + p {
+div:nth-child(3) p {
   background-color: yellow;
 }
 
-div p:last-of-type {
-  border: 20px solid white;
-}
-p > em {
-  color: white;
-  font-size: 20px;
+div:nth-child(3) p:nth-child(2) {
+  border: 17px solid white;
 }
